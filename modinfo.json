@@ -1,0 +1,34 @@
+{
+  "name": "Island Items",
+  "author": "TeigRolle, Nundir, FranzFischer78",
+  "description": "Displays the amount of items available on an island.",
+  "version": "1.7.8",
+  "license": "GNU AGPLv3",
+  "icon": "icon.jpg",
+  "banner": "banner.png",
+  "gameVersion": "Update 9.05",
+  "updateUrl": "https://www.raftmodding.com/api/v1/mods/islanditems/version.txt",
+  "isModPermanent": false,
+  "excludedFiles": [],
+  "modSettings": [
+    {
+      "type": "slider",
+      "name": "iconScale",
+      "text": "Icon Scale",
+      "access": "globalworld",
+      "default": 2.0,
+      "range": {
+        "type": "custom",
+        "min": 0.25,
+        "max": 5,
+        "decimals": 1
+      }
+    },
+    {
+      "type": "button",
+      "name": "buttonDisplay",
+      "text": "Apply Settings",
+      "access": "globalworld"
+    }
+  ]
+}
